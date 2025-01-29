@@ -70,8 +70,8 @@
         <mxCell id="z28AaAyg_YoIM6sgCLT6-18" value="Postman" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="80" y="160" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="z28AaAyg_YoIM6sgCLT6-19" value="POST&amp;nbsp;&lt;div&gt;&lt;span style=&quot;color: rgb(33, 33, 33); font-family: Inter, OpenSans, Helvetica, Arial, sans-serif; font-size: 12px; text-align: left; white-space: pre-wrap;&quot;&gt;/basic-login/api/auth/signIn&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(33, 33, 33); font-family: Inter, OpenSans, Helvetica, Arial, sans-serif; font-size: 12px; text-align: left; white-space: pre-wrap;&quot;&gt;(primerNombre, segundoNombre, primerApellido,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(33, 33, 33); font-family: Inter, OpenSans, Helvetica, Arial, sans-serif; font-size: 12px; text-align: left; white-space: pre-wrap;&quot;&gt; segundoApellido, email, contraseña)&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="z28AaAyg_YoIM6sgCLT6-20" target="z28AaAyg_YoIM6sgCLT6-4">
-          <mxGeometry x="-0.3115" y="-65" width="80" relative="1" as="geometry">
+        <mxCell id="z28AaAyg_YoIM6sgCLT6-19" value="POST&amp;nbsp;&lt;div&gt;&lt;span style=&quot;color: rgb(33, 33, 33); font-family: Inter, OpenSans, Helvetica, Arial, sans-serif; font-size: 12px; text-align: left; white-space: pre-wrap;&quot;&gt;/basic-login/api/auth/signIn&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(33, 33, 33); font-family: Inter, OpenSans, Helvetica, Arial, sans-serif; font-size: 12px; text-align: left; white-space: pre-wrap;&quot;&gt;(SignInForm form&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(33, 33, 33), rgb(209, 209, 209)); font-family: Inter, OpenSans, Helvetica, Arial, sans-serif; font-size: 12px; text-align: left; white-space: pre-wrap; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;)&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="z28AaAyg_YoIM6sgCLT6-20" target="z28AaAyg_YoIM6sgCLT6-4">
+          <mxGeometry x="-0.3115" y="5" width="80" relative="1" as="geometry">
             <mxPoint x="115" y="274.9999999999999" as="sourcePoint" />
             <mxPoint x="370" y="275" as="targetPoint" />
             <Array as="points">
@@ -80,7 +80,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="z28AaAyg_YoIM6sgCLT6-21" value="HTTP 201 CREATED body&lt;div&gt;(201, email, CREATED, TIMESTAMP)&lt;/div&gt;" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" edge="1" parent="1" source="z28AaAyg_YoIM6sgCLT6-4" target="z28AaAyg_YoIM6sgCLT6-20">
+        <mxCell id="z28AaAyg_YoIM6sgCLT6-21" value="ResponseEntity&lt;div&gt;&amp;lt;response, HttpStatus.CREATED&amp;gt;&lt;/div&gt;" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" edge="1" parent="1" source="z28AaAyg_YoIM6sgCLT6-4" target="z28AaAyg_YoIM6sgCLT6-20">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="320" y="455" as="sourcePoint" />
             <mxPoint x="160" y="455" as="targetPoint" />
